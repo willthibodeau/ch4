@@ -1,0 +1,10 @@
+ <widget id="com.wilfredrthibodeau" version="0.0.1">
+        <name>chapter 4</name>
+        <description>
+           web 125 chapter 4
+        </description>
+        <author email="will@willthibodeau.com" href="wilfredrthibodeau.com">Will Thibodeau
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>
