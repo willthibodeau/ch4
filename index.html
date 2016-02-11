@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page 91</title>
-	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 <div data-role="page" id="main">
@@ -17,14 +17,26 @@
 
 	<div data-role="content">
 		<ul data-role="listview">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="page96.html">Page 96</a></li>
-			<li><a href="page101.html">Page 101</a></li>
-			
-			<li>List 4</li>
+			<li data-icon="home"><a href="index.html">Home Full Page/Inset Lists</a></li>
+			<li><a href="page96.html">Page 96 Visual Separators</a></li>
+			<li><a href="page101.html">Page 101 Interactive Lists</a></li>
+			<li><a href="page105.html">Page 105 Split Button Lists</a></li>
+			<li><a href="page107.html">Page 107 More Interactive Lists</a></li>
 		</ul>
-
 	</div>
+
+	<br>
+
+	<div data-role="header">
+		<h2>Inset List</h2>
+	</div>
+		<ul data-role="listview" data-inset="true">
+    		<li>list 1</li>
+      		<li>list 2</li>
+      		<li>list 3</li>
+		</ul>
+	</div>
+
 </div>
 </body>
 </html>

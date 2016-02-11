@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html>
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <title>Page 101</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page 91</title>
-	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 </head>
+
 <body>
 
-<div data-role="page" id="main">
-	<div data-role="header">
-	<a href="index.html">Home</a>
-	<h1>Page 101</h1>
-	</div>
+ <div data-role="page" id="main">
 
-	<div data-role="content">
-		<ul data-role="listview">
-			<li><a href="order.html">Order Now</a>
-			<li>Cities Available
-				<ul data-role="listview">
-					<li>boston
-					<li>charlotte
-					<li>denver
-				</ul>
-			</li>	
-		</ul>
+   <div data-role="header">
+<a href="index.html">Home</a>
+     <h1>Nested Lists</h1>
+   </div>
+
+   <div data-role="content">
+      <ul data-role="listview">
+          <li><a href="order.html">Order Page</a>
+          <li>Cities available
+                <ul data-role="listview">
+                      <li>Boston
+                      <li>New York
+                      <li>Miami
+                      <li>San Francisco
+                      <li>San Jose
+                </ul>
+
+          <li>Some Topics
+                <ul data-role="listview">
+                      <li>Introduction to Mobile Web
+                            <ul data-role="listview">
+                                <li>WML and other oldies
+                                <li>XHTML MP
+                                <li>HTML 4.01
+                                <li>HTML5
+                            </ul>
+                      <li>Popular Mobile Browsers
+                            <ul data-role="listview">
+                                <li>Safari for iOS
+                                <li>Android Browser
+                                <li>Firefox for Mobile
+                                <li>Opera
+                            </ul>
+                      <li>Tablet Browsers
+                </ul>
+          <li>Promotions
+                <ul data-role="listview">
+                      <li>10% off before May
+                      <li><a href="promo.html">3x2</a>
+                      <li>10% off to subscribers
+                </ul>
+
+      </ul>
+   </div>
+
+  </div>
 </body>
 </html>
